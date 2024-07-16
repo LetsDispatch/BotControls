@@ -555,7 +555,6 @@ function renderPersistentBrokerBlocks(blocks){
     }
     const currentDate = new Date();
     const formattedDate = currentDate.toISOString().slice(0, 16);
-    document.getElementById('paymentDate').value = formattedDate;
 }
 
 function getSearchData(searchId){
